@@ -133,6 +133,7 @@
             this.PictureQRcode.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.PictureQRcode.TabIndex = 13;
             this.PictureQRcode.TabStop = false;
+            this.PictureQRcode.Visible = false;
             // 
             // ServersListBox
             // 

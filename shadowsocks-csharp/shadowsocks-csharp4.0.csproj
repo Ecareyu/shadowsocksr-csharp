@@ -245,6 +245,12 @@
     <Compile Include="View\SubscribeForm.designer.cs">
       <DependentUpon>SubscribeForm.cs</DependentUpon>
     </Compile>
+	<Compile Include="View\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="View\ConfigForm.resx">
       <DependentUpon>ConfigForm.cs</DependentUpon>
       <SubType>Designer</SubType>

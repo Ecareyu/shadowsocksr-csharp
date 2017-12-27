@@ -183,6 +183,12 @@
     <Compile Include="Util\Base64.cs" />
     <Compile Include="Util\CRC.cs" />
     <Compile Include="Util\Util.cs" />
+    <Compile Include="View\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\ConfigForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -247,6 +253,9 @@
     <Compile Include="View\SubscribeForm.Designer.cs">
       <DependentUpon>SubscribeForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\ConfigForm.resx">
       <DependentUpon>ConfigForm.cs</DependentUpon>
       <SubType>Designer</SubType>
