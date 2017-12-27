@@ -384,7 +384,9 @@ namespace Shadowsocks.Model
             Dictionary<string, string> params_dict = new Dictionary<string, string>();
 
             Match match = null;
+#pragma warning disable CS0162 // 检测到无法访问的代码
             for (int nTry = 0; nTry < 2; ++nTry)
+#pragma warning restore CS0162 // 检测到无法访问的代码
             {
                 int param_start_pos = data.IndexOf("?");
                 if (param_start_pos > 0)
